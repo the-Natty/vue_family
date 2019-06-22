@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div class="lessvariable"></div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -54,5 +55,11 @@ li {
 }
 a {
   color: #42b983;
+}
+.lessvariable {
+  width: 76px;
+  height: 96px;
+  .bg-image('../common/img/bg');
+  background-size: 100% 100%;
 }
 </style>
